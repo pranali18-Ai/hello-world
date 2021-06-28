@@ -1,0 +1,9 @@
+#percentages of marks 
+int_score = input('Score you have obtained:')
+int_score = int(int_score)
+
+total_score = input('The maximum score:')
+total_score = int(total_score)
+
+percentage = (int_score / total_score) * 100
+print ('percentage you have gain are',percentage,'%')
